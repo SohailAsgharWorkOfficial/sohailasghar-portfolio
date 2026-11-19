@@ -88,7 +88,7 @@ function App() {
     const cmd = raw.trim();
     const lc = cmd.toLowerCase();
     if (!cmd) return;
-    if (lc === "ap help") return setIsModalOpen(true);
+    if (lc === "help") return setIsModalOpen(true);
     if (lc === "clear" || lc === "cls") return closeAll();
     const app = APPS.find((a) => a.cmd === lc);
     if (app) openApp(app.id, app.cmd);
@@ -134,7 +134,7 @@ function App() {
           <Window
             key={w.id}
             win={w}
-            title={`${appLabel(w.appId)} — ~/Portfolio/AakashAp`}
+            title={`${appLabel(w.appId)} — ~/Portfolio/SohailAsghar`}
             focused={w.id === focusedId}
             zIndex={w.fullScreen ? 62 : 10 + stackOrder.indexOf(w.id)}
             desktopRef={desktopRef}

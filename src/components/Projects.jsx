@@ -33,8 +33,8 @@ export default function Projects() {
       github: "https://confido.pk/",
     },
     {
-      name: "Innovoco Cube",
-      description: "Innovoco Cube platform",
+      name: "Inventococube",
+      description: "Inventocube platform",
       technologies: ["React", "Next.js"],
       github: "https://inventocube.com/",
     },
@@ -57,7 +57,7 @@ export default function Projects() {
       github: "https://replicacopyindustries.com/",
     },
     {
-      name: "Glammar Paints",
+      name: "Glamur Paints",
       description: "Paint and coating website",
       technologies: ["React", "Tailwind CSS"],
       github: "https://www.glamurpaints.com/",
@@ -87,7 +87,7 @@ export default function Projects() {
       github: "https://amg-landscapes.vercel.app/",
     },
     {
-      name: "United Ummah (Duplicate)",
+      name: "United Ummah",
       description: "Online community platform - alternate entry",
       technologies: ["React", "Node.js"],
       github: "https://unitedummah.online/",
@@ -113,7 +113,7 @@ export default function Projects() {
       github: "https://tech.biosanct.com/",
     },
     {
-      name: "Hey Ki Dora",
+      name: "Heykidora",
       description: "Children's or personal site",
       technologies: ["React", "Tailwind CSS"],
       github: "https://heykiddora.com/",
@@ -125,19 +125,19 @@ export default function Projects() {
       github: "https://digitalexperts.dev/",
     },
     {
-      name: "Study Fi Six",
+      name: "Studyfi",
       description: "Study and fitness tracking app",
       technologies: ["React", "Tailwind CSS"],
       github: "https://studi-fi-six.vercel.app/",
     },
     {
-      name: "Chess Pro 360",
+      name: "ChessPro360",
       description: "Chess game and analysis platform",
       technologies: ["React", "Tailwind CSS"],
       github: "https://chesspro360.vercel.app/",
     },
     {
-      name: "Anatomy 6RZE",
+      name: "Anatomy Learning",
       description: "Anatomy learning platform",
       technologies: ["React", "Tailwind CSS"],
       github: "https://anatomy-6rze.vercel.app/",

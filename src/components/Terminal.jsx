@@ -18,16 +18,16 @@ import { COMPLETIONS } from "../commands";
 let nextOutputId = 0;
 
 const COMMAND_OUTPUT = {
-  "ap about": About,
-  "ap github stats": GitHubStats,
-  "ap --contact": Contact,
-  "ap tech stack": TechStack,
-  "ap --projects": Projects,
-  "ap resume": Resume,
-  "ap inspire": MotivationalQuote,
-  "ap make me laugh": LaughComponent,
-  "ap --music": MusicPlayer,
-  "ap dev card": DevCard,
+  "about": About,
+  "github stats": GitHubStats,
+  "--contact": Contact,
+  "tech stack": TechStack,
+  "--projects": Projects,
+  "resume": Resume,
+  "inspire": MotivationalQuote,
+  "make me laugh": LaughComponent,
+  "--music": MusicPlayer,
+  "dev card": DevCard,
 };
 
 export default function Terminal({ queuedCommand, showIntro, isFocused, focusSignal, fullScreen, openHelp, typingSound, setTypingSound }) {
@@ -51,7 +51,7 @@ export default function Terminal({ queuedCommand, showIntro, isFocused, focusSig
 
     if (lc === "clear" || lc === "cls") {
       setOutput([]);
-    } else if (lc === "ap help") {
+    } else if (lc === "help") {
       openHelp();
       append(cmd, null);
     } else if (lc === "on typing sound") {
@@ -71,7 +71,7 @@ export default function Terminal({ queuedCommand, showIntro, isFocused, focusSig
       append(
         cmd,
         <span className="text-red-500">
-          Error: Command <strong>&quot;{cmd}&quot;</strong> not found! Use <strong>&quot;ap help&quot;</strong> for more info.
+          Error: Command <strong>&quot;{cmd}&quot;</strong> not found! Use <strong>&quot;help&quot;</strong> for more info.
         </span>
       );
     }

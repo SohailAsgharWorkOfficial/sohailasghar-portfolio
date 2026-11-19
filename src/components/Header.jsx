@@ -22,7 +22,7 @@ export default function Header() {
     <header className="w-full py-3 flex justify-center items-center gap-3 sm:gap-4 z-50 bg-black relative">
       {/* GitHub Repo Button */}
       <motion.a
-        href="https://github.com/SohailAsgharWorkOfficial"
+        href="https://github.com/SohailAsgharWorkOfficial/sohailasghar-portfolio"
         target="_blank"
         rel="noopener noreferrer"
         whileHover={{ scale: 1.08, boxShadow: "0 0 15px #22c55e" }}
@@ -35,14 +35,14 @@ export default function Header() {
           animate={{ scale: [1, 1.1, 1] }}
           transition={{ repeat: Infinity, duration: 2 }}
         />
-        <span className="font-mono tracking-wide">
+        {/* <span className="font-mono tracking-wide">
           GitHub {stars !== null ? `⭐ ${stars}` : ""}
-        </span>
+        </span> */}
       </motion.a>
 
       {/* Other Portfolio Button */}
       <motion.a
-        href="https://sohailportfolio.vercel.app/"
+        href="https://vscodeportfolio-drab.vercel.app/"
         target="_blank"
         rel="noopener noreferrer"
         whileHover={{ scale: 1.08, boxShadow: "0 0 15px #3b82f6" }}
